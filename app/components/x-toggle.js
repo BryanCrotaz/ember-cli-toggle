@@ -3,6 +3,7 @@ import ENV from '../config/environment';
 
 var observer = Ember.observer;
 var on = Ember.on;
+var run = Ember.run;
 var computed = Ember.computed;
 var config = ENV['ember-cli-toggle'] || {};
 
